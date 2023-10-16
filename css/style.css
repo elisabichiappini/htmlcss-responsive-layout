@@ -39,10 +39,6 @@ CSS-----------
 
 /* Main */
 
-#planning .flex {
-    gap: 12px;
-}
-
 #planning .flex .col {
     width: 50%;
 }
