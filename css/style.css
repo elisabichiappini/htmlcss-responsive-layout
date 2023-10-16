@@ -26,18 +26,19 @@ CSS-----------
 --------------
 */
 
-/* Header */
+/* HEADER */
 #navbar {
     background-color: var(--bg-color1);
     padding: 10px 0;
+    color: white;
 }
 
 #demo-app .flex {
     gap: 12px;
 }
-/* /Header */
+/* /HEADER */
 
-/* Main */
+/* MAIN */
 
 #planning .flex .col {
     width: 50%;
@@ -55,3 +56,5 @@ CSS-----------
 .debug #benefits .container .flex {
     flex-wrap: wrap;
 }
+
+/* /MAIN */

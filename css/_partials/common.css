@@ -14,6 +14,12 @@ COMMON-------
     margin: 0 auto;
 }
 
+.container-footer {
+    width: 100%;
+    color: white;
+    background-color: var(--bg-color4);
+}
+
 li {
     list-style-type: none;
 }

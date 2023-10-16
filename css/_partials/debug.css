@@ -13,7 +13,6 @@ DEBUG--------
 /* /Header */
 
 /* Main: demo-app */
-
 .debug #demo-app {
     background-color: pink;
     border: 1px dashed white;
@@ -32,7 +31,6 @@ DEBUG--------
 /* /Main: demo-app */
 
 /* Main: planning */
-
 .debug .medium {
     background-color: rgb(120, 150, 204);
     border: 1px dashed black;
@@ -75,7 +73,7 @@ DEBUG--------
     background-color: rgb(86, 205, 50);
     border: 1px dashed black;
 }
-/* Main: partners */
+/* /Main: partners */
 
 /* Main: benefits */
 .debug #benefits {
@@ -93,7 +91,7 @@ DEBUG--------
     border: 1px dashed black;
     height: 410px;
 }
-/* Main: benefits */
+/* /Main: benefits */
 
 /* Main: about */
 .debug #about {
@@ -115,12 +113,27 @@ DEBUG--------
     background-color: rgb(66, 10, 106);
     border: 1px dashed black;
 }
-
-/* Main: about */
+/* /Main: about */
 
 /* Main: free */
 .debug #free {
-    background-color: rgb(234, 102, 7);
+    background-color: rgb(207, 103, 12);
     border: 1px dashed white;
 }
-/* Main: free */
+
+.debug #free .container {
+    background-color: rgb(223, 150, 48);
+    border: 1px dashed black;
+    height: 500px;
+}
+/* /Main: free */
+
+/* Footer */
+.debug footer .container-footer {
+    height: 225px;
+}
+
+.debug .container-footer {
+    background-color: var(--bg-color4)
+}
+/* Footer */
