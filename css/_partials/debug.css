@@ -3,21 +3,9 @@
 DEBUG--------
 -------------
 */
-.debug {
-    background-color: rgb(254, 227, 227);
-}
 
-.debug header {
-    background-color: pink;
-    border: 1px dashed black;
-}
-
-.debug .container {
-    background-color: var(--bg-color1);
-    border: 1px dashed black;
-}
-
-.debug .medium-container {
+/* Header */
+.debug .medium {
     background-color: blueviolet;
     border: 1px dashed black;
 }
@@ -26,29 +14,58 @@ DEBUG--------
 .debug .logo {
     border: 1px dashed salmon;
 }
+/* /Header */
 
-.debug main section.demo-app {
+/* Main: demo-app */
+
+.debug #demo-app {
     background-color: pink;
     border: 1px dashed white;
 }
 
-.debug main section.planning {
+.debug #demo-app .container .row div.w-70,
+.debug #demo-app .container .row div.w-30 {
+    height: 345px;
+    border: 1px dashed black;
+}
+/* /Main: demo-app */
+
+/* Main: planning */
+.debug #planning {
     background-color: rgb(122, 208, 227);
     border: 1px dashed white;
 }
-.debug main section.partners {
+
+.debug #planning .col {
+    border: 1px dashed white;
+    height: 700px;
+}
+/* /Main: planning */
+
+/* Main: partners */
+.debug #partners {
     background-color: rgb(131, 202, 123);
     border: 1px dashed white;
 }
-.debug main section.benefits {
+/* Main: partners */
+
+/* Main: benefits */
+.debug #benefits {
     background-color: rgb(238, 255, 192);
     border: 1px dashed white;
 }
-.debug main section.about {
+/* Main: benefits */
+
+/* Main: about */
+.debug #about {
     background-color: rgb(209, 72, 95);
     border: 1px dashed white;
 }
-.debug main section.free {
+/* Main: about */
+
+/* Main: free */
+.debug #free {
     background-color: rgb(219, 110, 216);
     border: 1px dashed white;
 }
+/* Main: free */

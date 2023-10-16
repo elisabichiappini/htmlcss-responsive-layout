@@ -22,3 +22,16 @@ li a,
     display: inline-block;
     padding: 10px 15px;
 }
+
+.w-30 {
+    width: calc((100% - 24px) / 3);
+    flex-shrink: 0;
+}
+
+.w-70 {
+    flex-grow: 2;
+}
+
+.row {
+    margin: 12px 0;
+}

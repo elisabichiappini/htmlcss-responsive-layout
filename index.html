@@ -7,7 +7,7 @@
     <!-- /Regola Responsive Layout brower-->
     <title>Responsive Layout</title>
     <!-- Collegamento Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <LINK rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- /Collegamento Font Awesome -->
     <!-- Collegamento File Css -->
     <link rel="stylesheet" href="css/style.css">
@@ -15,19 +15,19 @@
 </head>
 <body class="debug">
     <!--Header: navigation bar-->
-    <header class="container">
-        <nav class="navbar flex space-b">
+    <header id="navbar">
+        <nav class="container flex space-b">
             <!--Navigation bar box-left -->
-            <div class="logo">logo</div>
+            <div class="logo">LOGO</div>
             <!--Navigation bar box-left -->
             <!--Navigation bar box-right-->
             <div class="menu">
                 <ul class="flex">
-                    <li><a href="#" target="_blank">link</a></li>
-                    <li><a href="#" target="_blank">link</a></li>
-                    <li><a href="#" target="_blank">link</a></li>
-                    <li><a href="#" target="_blank">link</a></li>
-                    <li><a href=""# target="_blank" class="btn btn-menu">Btn</a></li>
+                    <li><a href="#" target="_blank">LINK</a></li>
+                    <li><a href="#" target="_blank">LINK</a></li>
+                    <li><a href="#" target="_blank">LINK</a></li>
+                    <li><a href="#" target="_blank">LINK</a></li>
+                    <li><a href=""# target="_blank" class="btn btn-menu">BTN</a></li>
                 </ul>
             </div>
             <!--/ Navigation bar box-right-->
@@ -37,14 +37,32 @@
 
     <!--/ Main: sections-->
     <main>
-        <section class="demo-app">1</section>
-        <section class="planning">2</section>
-        <section class="partners">3</section>
-        <section class="benefits">4</section>
-        <section class="about">5</section>
-        <section class="free">6</section>
+        <!--Demo-application: griglia-->
+        <section id="demo-app">
+            <div class="container">
+                <div class="row flex">
+                    <div class="w-70">box large</div>
+                    <div class="w-30">box 1/3</div>
+                </div>
+                <div class="row flex">
+                    <div class="w-30">box 1/3</div>
+                    <div class="w-30">box 1/3</div>
+                    <div class="w-30">box 1/3</div>
+                </div>
+            </div>
+        </section>
+        <section id="planning">
+            <div class="container medium flex">
+                <div class="col">col img + test</div>
+                <div class="col">col img + test</div>
+            </div>
+        </section>
+        <section id="partners">3</section>
+        <section id="benefits">4</section>
+        <section id="about">5</section>
+        <section id="free">6</section>
     </main>
     <!--/ Main: sections-->
-    <footer>3</footer>
+    <footer>footer</footer>
 </body>
 </html>

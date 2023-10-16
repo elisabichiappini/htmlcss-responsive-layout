@@ -2,7 +2,7 @@
 @import '/css/_partials/common.css';
 @import '/css/_partials/debug.css';
 @import '/css/_partials/utility.css';
-
+@import '/css/_partials/typography.css';
 
 
 /*
@@ -26,3 +26,23 @@ CSS-----------
 --------------
 */
 
+/* Header */
+#navbar {
+    background-color: var(--bg-color1);
+    padding: 10px 0;
+}
+
+#demo-app .flex {
+    gap: 12px;
+}
+/* /Header */
+
+/* Main */
+
+#planning .flex {
+    gap: 12px;
+}
+
+#planning .flex .col {
+    width: 50%;
+}
