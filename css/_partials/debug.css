@@ -25,6 +25,10 @@ DEBUG--------
     border: 1px dashed black;
     background-color: rgb(190, 54, 77);
 }
+
+.debug #demo-app .row {
+    background-color: red;
+}
 /* /Main: demo-app */
 
 /* Main: planning */
@@ -93,9 +97,25 @@ DEBUG--------
 
 /* Main: about */
 .debug #about {
-    background-color: rgb(150, 72, 209);
+    background-color: rgb(178, 107, 233);
     border: 1px dashed white;
 }
+
+.debug #about .container .row {
+    background-color: rgb(115, 68, 148);
+    height: 625px;
+}
+
+.debug #about .container .row div.col-80 {
+    background-color: rgb(135, 31, 204);
+    border: 1px dashed black;
+}
+
+.debug #about .container .row div.col-20 {
+    background-color: rgb(66, 10, 106);
+    border: 1px dashed black;
+}
+
 /* Main: about */
 
 /* Main: free */
