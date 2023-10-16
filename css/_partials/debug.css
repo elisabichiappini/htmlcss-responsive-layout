@@ -5,14 +5,10 @@ DEBUG--------
 */
 
 /* Header */
-.debug .medium {
-    background-color: blueviolet;
-    border: 1px dashed black;
-}
-
 .debug li a,
 .debug .logo {
-    border: 1px dashed salmon;
+    border: 1px dashed rgb(255, 255, 255);
+    background-color: rgb(124, 174, 236);
 }
 /* /Header */
 
@@ -27,16 +23,24 @@ DEBUG--------
 .debug #demo-app .container .row div.w-30 {
     height: 345px;
     border: 1px dashed black;
+    background-color: rgb(190, 54, 77);
 }
 /* /Main: demo-app */
 
 /* Main: planning */
+
+.debug .medium {
+    background-color: rgb(120, 150, 204);
+    border: 1px dashed black;
+}
+
 .debug #planning {
-    background-color: rgb(122, 208, 227);
+    background-color: rgb(19, 81, 132);
     border: 1px dashed white;
 }
 
 .debug #planning .col {
+    background-color: rgb(88, 157, 237);
     border: 1px dashed white;
     height: 700px;
 }
@@ -47,6 +51,26 @@ DEBUG--------
     background-color: rgb(131, 202, 123);
     border: 1px dashed white;
 }
+
+.debug #partners .row {
+    background-color: rgb(36, 108, 47);
+    border: 1px dashed black;
+    height: 250px;
+}
+
+.debug #partners .text-center {
+    height: 200px;
+}
+
+.debug #partners .col-20 {
+    background-color: greenyellow;
+    border: 1px dashed black;
+}
+
+.debug #partners .col-80 {
+    background-color: rgb(86, 205, 50);
+    border: 1px dashed black;
+}
 /* Main: partners */
 
 /* Main: benefits */
@@ -54,18 +78,29 @@ DEBUG--------
     background-color: rgb(238, 255, 192);
     border: 1px dashed white;
 }
+
+.debug #benefits .container .flex {
+    background-color: rgb(186, 186, 51);
+    border: 1px dashed black;
+}
+
+.debug #benefits .container .row .w-30 {
+    background-color: yellow;
+    border: 1px dashed black;
+    height: 410px;
+}
 /* Main: benefits */
 
 /* Main: about */
 .debug #about {
-    background-color: rgb(209, 72, 95);
+    background-color: rgb(150, 72, 209);
     border: 1px dashed white;
 }
 /* Main: about */
 
 /* Main: free */
 .debug #free {
-    background-color: rgb(219, 110, 216);
+    background-color: rgb(234, 102, 7);
     border: 1px dashed white;
 }
 /* Main: free */
