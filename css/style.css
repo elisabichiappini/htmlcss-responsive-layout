@@ -1,0 +1,28 @@
+@import '/css/_partials/reset.css';
+@import '/css/_partials/common.css';
+@import '/css/_partials/debug.css';
+@import '/css/_partials/utility.css';
+
+
+
+/*
+-------------
+VARIABILI----
+-------------
+*/
+
+:root {
+    --bg-color1: #0084fd;
+    --bg-color2: #b5ddff;
+    --bg-color3: #9792e4;
+    --bg-color4: #333333;
+    --bg-color5: #fdc15f;
+}
+
+
+/*
+--------------
+CSS-----------
+--------------
+*/
+

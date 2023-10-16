@@ -1,0 +1,25 @@
+/*
+-------------
+DEBUG--------
+-------------
+*/
+
+.debug header {
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.debug .container {
+    background-color: var(--bg-color1);
+    border: 1px dashed black;
+}
+
+.debug .medium-container {
+    background-color: blueviolet;
+    border: 1px dashed black;
+}
+
+.debug li a,
+.debug .logo {
+    border: 1px dashed salmon;
+}

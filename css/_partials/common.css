@@ -1,0 +1,19 @@
+/*
+-------------
+COMMON-------
+-------------
+*/
+
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+.container-medium {
+    width: 90%;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}

@@ -1,0 +1,24 @@
+/*
+-------------
+UTILITY------
+-------------
+*/
+
+.flex {
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.space-b {
+    justify-content: space-between;
+}
+
+li a,
+.logo {
+    all: unset;
+    display: inline-block;
+    padding: 10px 15px;
+}
