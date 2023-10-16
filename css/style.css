@@ -13,6 +13,9 @@
 /*importazione file typography*/
 @import '/css/_partials/typography.css';
 /* /importazione file typography*/
+/*importazione file responsive*/
+@import '/css/_partials/responsive.css';
+/* /importazione file responsive*/
 
 
 /*
@@ -46,10 +49,15 @@ CSS-----------
 #demo-app .flex {
     gap: 12px;
 }
+
+#navbar a.icon-menu {
+    display: none;
+}
+
 /* /HEADER */
 
 /* MAIN */
-#planning .flex .col {
+#planning .col {
     width: 50%;
 }
 
@@ -67,6 +75,3 @@ CSS-----------
 }
 /* /MAIN */
 
-/*importazione file responsive*/
-@import '/css/_partials/responsive.css';
-/* /importazione file responsive*/

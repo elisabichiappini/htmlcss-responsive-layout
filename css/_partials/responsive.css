@@ -3,3 +3,30 @@
 RESPONSIVE---
 -------------
 */
+
+
+/* da 0 a 768px*/
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    #navbar a.icon-menu {
+        display: block;
+    }
+
+    #navbar .container .menu ul:not(li:first-child) {
+        display: none;
+    }
+    #planning .flex {
+        flex-direction: column;
+    }
+
+    #planning .flex .col {
+        width: 100%;
+    }
+
+    #benefits .container .flex > .w-30 {
+        width: calc((100% - 12px) / 2);
+    }
+}
