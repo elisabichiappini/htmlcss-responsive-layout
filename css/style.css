@@ -1,8 +1,18 @@
+/*importazione file reset*/
 @import '/css/_partials/reset.css';
+/* /importazione file reset*/
+/*importazione file common*/
 @import '/css/_partials/common.css';
+/* /importazione file common*/
+/*importazione file debug*/
 @import '/css/_partials/debug.css';
+/* /importazione file debug*/
+/*importazione file utility*/
 @import '/css/_partials/utility.css';
+/* /importazione file utility*/
+/*importazione file typography*/
 @import '/css/_partials/typography.css';
+/* /importazione file typography*/
 
 
 /*
@@ -39,7 +49,6 @@ CSS-----------
 /* /HEADER */
 
 /* MAIN */
-
 #planning .flex .col {
     width: 50%;
 }
@@ -56,7 +65,8 @@ CSS-----------
 #benefits .container .flex {
     flex-wrap: wrap;
 }
-
 /* /MAIN */
 
+/*importazione file responsive*/
 @import '/css/_partials/responsive.css';
+/* /importazione file responsive*/
