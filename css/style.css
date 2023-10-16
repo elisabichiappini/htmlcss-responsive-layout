@@ -53,8 +53,10 @@ CSS-----------
     width: 20%;
 }
 
-.debug #benefits .container .flex {
+#benefits .container .flex {
     flex-wrap: wrap;
 }
 
 /* /MAIN */
+
+@import '/css/_partials/responsive.css';

@@ -17,7 +17,7 @@ UTILITY------
     justify-content: space-between;
 }
 
-li a,
+a,
 .logo {
     all: unset;
     display: inline-block;
