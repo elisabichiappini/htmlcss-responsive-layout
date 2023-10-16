@@ -3,6 +3,9 @@
 DEBUG--------
 -------------
 */
+.debug {
+    background-color: rgb(254, 227, 227);
+}
 
 .debug header {
     background-color: pink;
@@ -22,4 +25,30 @@ DEBUG--------
 .debug li a,
 .debug .logo {
     border: 1px dashed salmon;
+}
+
+.debug main section.demo-app {
+    background-color: pink;
+    border: 1px dashed white;
+}
+
+.debug main section.planning {
+    background-color: rgb(122, 208, 227);
+    border: 1px dashed white;
+}
+.debug main section.partners {
+    background-color: rgb(131, 202, 123);
+    border: 1px dashed white;
+}
+.debug main section.benefits {
+    background-color: rgb(238, 255, 192);
+    border: 1px dashed white;
+}
+.debug main section.about {
+    background-color: rgb(209, 72, 95);
+    border: 1px dashed white;
+}
+.debug main section.free {
+    background-color: rgb(219, 110, 216);
+    border: 1px dashed white;
 }
