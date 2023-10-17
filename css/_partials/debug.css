@@ -135,7 +135,7 @@ DEBUG--------
 
 /* Main: free */
 .debug #free {
-    background-color: rgb(207, 103, 12);
+    background-color: rgb(209, 100, 5);
     border: 1px dashed white;
 }
 
@@ -144,14 +144,16 @@ DEBUG--------
     border: 1px dashed black;
     height: 500px;
 }
+
+.debug #free .container .box-text {
+    background-color: rgb(243, 122, 78);
+    border: 1px dashed black;
+    height: 100%;
+}
 /* /Main: free */
 
 /* Footer */
-.debug footer .container-footer {
+.debug footer {
     height: 225px;
-}
-
-.debug .container-footer {
-    background-color: var(--bg-color4)
 }
 /* Footer */

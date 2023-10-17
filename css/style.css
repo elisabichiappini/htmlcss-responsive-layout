@@ -77,3 +77,9 @@ a.icon-menu {
 }
 /* /MAIN */
 
+footer,
+footer div.text-center {
+    background-color: var(--bg-color4);
+    color: white;
+    
+}
