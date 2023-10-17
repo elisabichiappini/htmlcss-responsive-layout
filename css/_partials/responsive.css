@@ -9,7 +9,7 @@ RESPONSIVE---
 @media screen and (max-width: 991px) {
 
     .container {
-        padding: 0 15px;
+        padding: 0 2rem;
     }
 
     /* controllare menu header*/
@@ -40,7 +40,7 @@ RESPONSIVE---
 @media screen and (max-width: 767px) {
 
     .container {
-        padding: 0 10px;
+        padding: 0 1.8rem;
     }
     
     /* controllare menu header*/
