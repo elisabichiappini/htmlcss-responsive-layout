@@ -75,11 +75,19 @@ a.icon-menu {
 #benefits .container .flex {
     flex-wrap: wrap;
 }
+
+#benefits .flex {
+    gap: 15px;
+}
+
+#benefits .row .w-30 {
+    width: calc((100% - 30px) / 3)
+}
 /* /MAIN */
 
 footer,
 footer div.text-center {
     background-color: var(--bg-color4);
     color: white;
-    
+
 }
