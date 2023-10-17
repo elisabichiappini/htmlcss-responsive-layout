@@ -10,7 +10,7 @@ RESPONSIVE---
     .container {
         padding: 0 15px;
     }
-
+    /* controllare menu header */
     #navbar a.icon-menu {
         display: block;
     }
@@ -18,6 +18,7 @@ RESPONSIVE---
     #navbar .container .menu ul:not(li:first-child) {
         display: none;
     }
+    /* /controllare menu header */
     #planning .flex {
         flex-direction: column;
     }
@@ -30,3 +31,4 @@ RESPONSIVE---
         width: calc((100% - 12px) / 2);
     }
 }
+
