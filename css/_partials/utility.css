@@ -41,3 +41,7 @@ a,
 .row {
     margin: 12px 0;
 }
+
+.only-tp {
+    display: none;
+}

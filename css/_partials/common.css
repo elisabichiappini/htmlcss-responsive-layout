@@ -17,3 +17,7 @@ COMMON-------
 #free {
     padding: 60px 0;
 }
+
+.btn {
+    cursor: pointer;
+}
