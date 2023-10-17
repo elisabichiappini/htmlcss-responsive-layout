@@ -34,7 +34,8 @@ a,
 }
 
 .w-70 {
-    flex-grow: 2;
+    width: calc(((100% - 24px ) / 3 ) * 2 + 12px );
+    flex-shrink: 0;
 }
 
 .row {
