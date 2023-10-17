@@ -9,6 +9,10 @@ UTILITY------
     gap: 12px;
 }
 
+li {
+    list-style-type: none;
+}
+
 .text-center {
     text-align: center;
 }

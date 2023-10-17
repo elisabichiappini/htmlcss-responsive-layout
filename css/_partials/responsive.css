@@ -9,6 +9,7 @@ RESPONSIVE---
 @media screen and (max-width: 991px) {
 
     .container {
+        max-width: 960px;
         padding: 0 2rem;
     }
 
@@ -40,6 +41,7 @@ RESPONSIVE---
 @media screen and (max-width: 767px) {
 
     .container {
+        max-width: 720px;
         padding: 0 1.8rem;
     }
     
