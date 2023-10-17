@@ -117,23 +117,40 @@ a.icon-menu {
     padding-bottom: 36px;
 }
 
+
 #planning .container .col-50:first-child {
     color: var(--bg-color6);
-    padding: 0 20px 0 72px;
+    margin: 0 0 0 100px;
+    padding: 20px;
 }
 
 #planning .container .col-50:last-child {
     color: var(--bg-color7);
     background-color: var(--bg-color6);
+    margin: 200px 100px 0 0;
+    padding: 40px;
+    border-radius: 50px;
 }
 
-#planning .col-50 {
+#planning .container div.col-50 {
     width: 50%;
 }
 
-#planning .image {
+#planning .container .col-50:last-child .image {
+    margin-bottom: 24px;
     width: 70%;
-    margin-bottom: 100px;
+}
+
+#planning .container .col-50:last-child .box-text h3,
+#planning .container .col-50:last-child .box-text p {
+    margin-bottom: 24px;
+}
+
+#planning .container .col-50 .box-text i {
+    background-color: #9792e4;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50px;
 }
 /* /planning */
 

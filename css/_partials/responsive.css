@@ -51,10 +51,21 @@ RESPONSIVE---
     /* planning */
     #planning .flex {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
-    #planning .flex .col-50 {
+    #planning .container.flex .col-50 {
         width: 100%;
+    }
+
+    #planning .container.flex .col-50:first-child,
+    #planning .container.flex .col-50:last-child {
+        margin: 0
+    }
+
+    #planning .container.flex .col-50:first-child img,
+    #planning .container.flex .col-50:first-child p {
+        margin: 0 0 60px 0;
     }
     /* /planning */
 
