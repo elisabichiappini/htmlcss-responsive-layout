@@ -304,6 +304,34 @@ a.icon-menu {
 #about .container .row .col-20 .btn > i {
     margin-right: 5px;
 }
+/* /about */
+
+/* free */
+#free {
+    background-color: var(--bg-color3);
+    color: var(--bg-color6);
+}
+
+#free .container .box-text h4{
+    color: var(--bg-color5);
+}
+
+#free .container .box-text .btn {
+    background-color: var(--bg-color6);
+    color: var(--bg-color3);
+    padding: 15px 50px;
+    margin: 20px 0;
+}
+
+#free .container .box-text div.privacy {
+    font-size: 10px;
+}
+
+#free .container .box-text .privacy > i{
+    font-size: 4px;
+}
+
+/* /free */
 /* /MAIN */
 
 /* FOOTER */
@@ -312,4 +340,5 @@ footer div.text-center {
     background-color: var(--bg-color4);
     color: white;
 }
+
 /* /FOOTER */
