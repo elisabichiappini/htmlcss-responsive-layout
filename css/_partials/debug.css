@@ -35,10 +35,6 @@ DEBUG--------
 /* /Main: demo-app */
 
 /* Main: planning */
-.debug .medium {
-    background-color: rgb(120, 150, 204);
-    border: 1px dashed black;
-}
 
 .debug #planning {
     background-color: rgb(19, 81, 132);
