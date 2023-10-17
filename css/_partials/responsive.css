@@ -110,8 +110,11 @@ RESPONSIVE---
         flex-wrap: wrap;
     } 
     
-    #partners .container .row .col-20{
+    #partners .container .row.flex {
         width: 100%;
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
     } 
 
     #partners .container .row .col-80{
