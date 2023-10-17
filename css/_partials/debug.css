@@ -32,7 +32,6 @@ DEBUG--------
 
 .debug #demo-app .container .row div.w-70,
 .debug #demo-app .container .row div.w-30 {
-    height: 345px;
     border: 1px dashed black;
     background-color: rgb(190, 54, 77);
 }
@@ -52,7 +51,6 @@ DEBUG--------
 .debug #planning .col-50 {
     background-color: rgb(88, 157, 237);
     border: 1px dashed white;
-    height: 700px;
 }
 
 .debug #planning .container .col-50 div.box-img {
@@ -64,7 +62,7 @@ DEBUG--------
 .debug #planning .container .col-50 div.box-text {
     background-color: rgb(121, 171, 206);
     border: 1px dashed white;
-    height: 50%;
+
 }
 /* /Main: planning */
 
@@ -77,7 +75,6 @@ DEBUG--------
 .debug #partners .row {
     background-color: rgb(36, 108, 47);
     border: 1px dashed black;
-    height: 250px;
 }
 
 .debug #partners .text-center {
