@@ -50,8 +50,8 @@ CSS-----------
     gap: 12px;
 }
 
-#navbar .container .menu {
-    vertical-align: middle;
+#navbar .flex{
+    align-items: center;
 }
 
 a.icon-menu {
