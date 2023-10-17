@@ -20,7 +20,6 @@ RESPONSIVE---
         padding: 0 2rem;
     }
 
-    /* controllare menu header*/
     #navbar .nav-links {
         display: none;
     }
@@ -28,8 +27,7 @@ RESPONSIVE---
     #navbar .menu .only-tp {
         display: block;
     }
-    /* /controllare menu header */
-
+   
     #planning .flex {
         flex-direction: column;
     }
@@ -93,5 +91,6 @@ RESPONSIVE---
     #about .container .row .col-20 {
         width: 100%;
     }
+    
     }
     /* /da 0 a 767px*/
