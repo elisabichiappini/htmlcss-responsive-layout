@@ -49,19 +49,19 @@ DEBUG--------
     border: 1px dashed white;
 }
 
-.debug #planning .col {
+.debug #planning .col-50 {
     background-color: rgb(88, 157, 237);
     border: 1px dashed white;
     height: 700px;
 }
 
-.debug #planning .container .col div.box-img {
+.debug #planning .container .col-50 div.box-img {
     background-color: rgb(156, 205, 240);
     border: 1px dashed white;
     height: 50%;
 }
 
-.debug #planning .container .col div.box-text {
+.debug #planning .container .col-50 div.box-text {
     background-color: rgb(121, 171, 206);
     border: 1px dashed white;
     height: 50%;

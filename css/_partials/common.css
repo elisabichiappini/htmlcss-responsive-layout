@@ -20,4 +20,6 @@ COMMON-------
 
 .btn {
     cursor: pointer;
+    border-radius: 60px;
 }
+

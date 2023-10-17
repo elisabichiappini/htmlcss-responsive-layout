@@ -30,6 +30,8 @@ VARIABILI----
     --bg-color3: #9792e4;
     --bg-color4: #333333;
     --bg-color5: #fdc15f;
+    --bg-color6: #ffffff;
+    --bg-color7: #000000;
 }
 
 
@@ -43,28 +45,70 @@ CSS-----------
 #navbar {
     background-color: var(--bg-color1);
     padding: 10px 0;
-    color: white;
-}
-
-#demo-app .flex {
-    gap: 12px;
+    color: var(--bg-color6);
+    font-size: 14px;
 }
 
 #navbar .flex{
     align-items: center;
 }
 
+#navbar .btn {
+    background-color: var(--bg-color6);
+    color: var(--bg-color7);
+}
+
 a.icon-menu {
     display: none;
 }
 
-#navbar .container .logo img {
-    width: 100%;
-    display: block;
-}
+
 /* /HEADER */
 
 /* MAIN */
+
+#demo-app .flex {
+    gap: 12px;
+}
+
+#demo-app .container .row .w-70 a.btn {
+    background-color: var(--bg-color1);
+    color: var(--bg-color6);
+    padding: 8px 48px;
+}
+
+#demo-app .container h3 {
+    color: var(--bg-color1);
+    margin-bottom: 36px;
+}
+
+#demo-app .container p {
+    color: var(--bg-color4);
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+
+#demo-app .container .row .w-70 {
+    position: relative;
+}
+#demo-app .container .row .w-70,
+#demo-app .container .row .w-30 {
+    background-color: var(--bg-color2);
+}
+
+#demo-app .image {
+    width: 250px;
+    position: absolute;
+    bottom: 0px;
+    right: 48px;
+}
+
+#demo-app .container .row .w-30 i {
+    color: var(--bg-color1);
+    font-size: 80px;
+    margin: 36px;
+}
+
 #planning .col {
     width: 50%;
 }
@@ -97,5 +141,4 @@ footer,
 footer div.text-center {
     background-color: var(--bg-color4);
     color: white;
-
 }

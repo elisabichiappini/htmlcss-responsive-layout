@@ -25,23 +25,35 @@ a,
 .logo {
     all: unset;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 8px 12px;
 }
 
 .w-30 {
     width: calc((100% - 24px) / 3);
     flex-shrink: 0;
+    border-radius: 20px;
+    padding: 25px;
 }
 
 .w-70 {
     width: calc(((100% - 24px ) / 3 ) * 2 + 12px );
     flex-shrink: 0;
+    border-radius: 20px;
+    padding: 25px;
 }
 
+.col-50 {
+    width: calc((100% / 2) - 12px);
+}
 .row {
     margin: 12px 0;
 }
 
 .only-tp {
     display: none;
+}
+
+.image {
+    width: 100%;
+    display: block;
 }
