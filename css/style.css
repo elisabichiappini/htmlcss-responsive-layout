@@ -50,7 +50,7 @@ CSS-----------
     gap: 12px;
 }
 
-#navbar a.icon-menu {
+a.icon-menu {
     display: none;
 }
 
