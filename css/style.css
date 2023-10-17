@@ -89,6 +89,7 @@ a.icon-menu {
 #demo-app .container .row .w-70 {
     position: relative;
 }
+
 #demo-app .container .row .w-70,
 #demo-app .container .row .w-30 {
     background-color: var(--bg-color2);
@@ -116,7 +117,6 @@ a.icon-menu {
 #planning .container .col-50 h2 {
     padding-bottom: 36px;
 }
-
 
 #planning .container .col-50:first-child {
     color: var(--bg-color6);
@@ -153,8 +153,6 @@ a.icon-menu {
     padding: 20px;
     border-radius: 50px;
 }
-
-
 /* /planning */
 
 /* partners */
@@ -180,7 +178,6 @@ a.icon-menu {
     background-image: url('../img/testimonial1.jpg');
     background-size: cover;
 }
-
 
 #partners .container .row.flex .image1 {
     background-image: url('/img/testimonial1.jpg');
@@ -222,7 +219,6 @@ a.icon-menu {
 #partners .container .row.text-center {
     margin-bottom: 30px;
 }
-
 /* /partners */
 
 /* benefits */
@@ -289,6 +285,7 @@ a.icon-menu {
     padding-right: 40px;
     color: var(--bg-color3);
 }
+
 #about p {
     margin-top: 30px;
     color: var(--bg-color4)
@@ -334,11 +331,11 @@ a.icon-menu {
 /* /MAIN */
 
 /* FOOTER */
-
 footer  {
     background-color: var(--bg-color4);
     color: white;
 }
+
 footer .privacy{
     font-size: 10px;
 }
@@ -350,5 +347,4 @@ footer p {
 footer .link-footer {
     color: var(--bg-color3);
 }
-
 /* /FOOTER */

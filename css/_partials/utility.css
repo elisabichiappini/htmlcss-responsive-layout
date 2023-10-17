@@ -45,6 +45,7 @@ a,
 .col-50 {
     width: calc((100% / 2) - 12px);
 }
+
 .row {
     margin: 12px 0;
 }
