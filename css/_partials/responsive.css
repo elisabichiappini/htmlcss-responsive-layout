@@ -11,6 +11,7 @@ RESPONSIVE---
         padding: 0 2rem;
     }
 }
+/* /da 0 a 1400 */
 
 /* da 0 a 991px*/
 @media screen and (max-width: 991px) {
@@ -91,6 +92,6 @@ RESPONSIVE---
     #about .container .row .col-20 {
         width: 100%;
     }
-    
+
     }
     /* /da 0 a 767px*/

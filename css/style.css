@@ -50,10 +50,18 @@ CSS-----------
     gap: 12px;
 }
 
+#navbar .container .menu {
+    vertical-align: middle;
+}
+
 a.icon-menu {
     display: none;
 }
 
+#navbar .container .logo img {
+    width: 100%;
+    display: block;
+}
 /* /HEADER */
 
 /* MAIN */
