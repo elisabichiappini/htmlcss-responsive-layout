@@ -7,18 +7,21 @@ RESPONSIVE---
 
 /* da 0 a 768px*/
 @media screen and (max-width: 768px) {
+
     .container {
         padding: 0 15px;
     }
-    /* controllare menu header */
-    #navbar a.icon-menu {
-        display: block;
-    }
 
-    #navbar .container .menu ul:not(li:first-child) {
+    /* controllare menu header*/
+    #navbar .nav-links {
         display: none;
     }
+
+    #navbar .nav-links li > a:first-child {
+        display: block;
+    }
     /* /controllare menu header */
+
     #planning .flex {
         flex-direction: column;
     }
@@ -32,3 +35,23 @@ RESPONSIVE---
     }
 }
 
+@media screen and (max-width: 570px) {
+
+    .container {
+        padding: 0 10px;
+    }
+    
+    /* controllare menu header*/
+
+    #demo-app .container .flex {
+        flex-wrap: wrap;
+    }
+
+    #demo-app .container .row .w-70 {
+        width: 100%;
+    }
+
+    #demo-app .container .row .w-30 {
+        width: 100%;
+    }
+}
