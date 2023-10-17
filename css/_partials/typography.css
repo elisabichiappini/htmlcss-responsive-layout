@@ -3,11 +3,11 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 72px;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 48px;
 }
 
 h3 {
@@ -15,6 +15,39 @@ h3 {
 }
 
 h4 {
-    font-size: 35px;
+    font-size: 34px;
     font-weight: bold;
 }
+
+p {
+    font-size: 18px;
+}
+
+/*
+Marketing:
+titoli 24px
+p: 18px bold
+
+Strategic Planning:
+titoli 34px, 24px
+p: 16px, 18px
+
+Testimonial:
+titolo: 48px
+sottotitolo, descrizione foto: 20px;
+
+Benefits:
+titolo: 48px
+numero card: 72px;
+titolo card: 24px;
+
+About us:
+titolo: 72px
+p: 20px;
+testo foto: 30px;
+
+Free:
+18px
+48px
+96px
+*/
