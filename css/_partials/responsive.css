@@ -5,8 +5,8 @@ RESPONSIVE---
 */
 
 
-/* da 0 a 768px*/
-@media screen and (max-width: 768px) {
+/* da 0 a 991px*/
+@media screen and (max-width: 991px) {
 
     .container {
         padding: 0 15px;
@@ -34,10 +34,10 @@ RESPONSIVE---
         width: calc((100% - 12px) / 2);
     }
 }
-/* /da 0 a 768px*/
+/* /da 0 a 991px*/
 
-/* da 0 a 570px*/
-@media screen and (max-width: 570px) {
+/* da 0 a 767px*/
+@media screen and (max-width: 767px) {
 
     .container {
         padding: 0 10px;
@@ -85,4 +85,4 @@ RESPONSIVE---
     width: 100%;
    }
 }
-/* /da 0 a 570px*/
+/* /da 0 a 767px*/
