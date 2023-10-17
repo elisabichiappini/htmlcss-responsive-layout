@@ -1,20 +1,20 @@
 /*importazione file reset*/
-@import 'css/_partials/reset.css';
+@import '_partials/reset.css';
 /* /importazione file reset*/
 /*importazione file common*/
-@import 'css/_partials/common.css';
+@import '_partials/common.css';
 /* /importazione file common*/
 /*importazione file debug*/
-@import 'css/_partials/debug.css';
+@import '_partials/debug.css';
 /* /importazione file debug*/
 /*importazione file utility*/
-@import 'css/_partials/utility.css';
+@import '_partials/utility.css';
 /* /importazione file utility*/
 /*importazione file typography*/
-@import 'css/_partials/typography.css';
+@import '_partials/typography.css';
 /* /importazione file typography*/
 /*importazione file responsive*/
-@import 'css/_partials/responsive.css';
+@import '_partials/responsive.css';
 /* /importazione file responsive*/
 
 
