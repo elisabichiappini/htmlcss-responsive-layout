@@ -58,3 +58,11 @@ a,
     width: 100%;
     display: block;
 }
+
+.letter-space {
+    letter-spacing: 3px;
+}
+
+.text-marker {
+    text-decoration-line: underline;
+}
