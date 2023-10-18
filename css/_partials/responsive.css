@@ -64,8 +64,8 @@ RESPONSIVE---
     }
 
     #planning .container.flex .col-50:first-child img,
-    #planning .container.flex .col-50:first-child p {
-        margin: 0 0 60px 0;
+    #planning .container.flex .col-50:first-child .box-text > p {
+        margin: 0;
     }
     
     /* /planning */

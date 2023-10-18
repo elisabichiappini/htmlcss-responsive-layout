@@ -115,7 +115,7 @@ a.icon-menu {
 }
 
 #planning .container .col-50 h2 {
-    padding-bottom: 36px;
+    padding: 100px 0;
 }
 
 #planning .container .col-50:first-child {
@@ -124,10 +124,14 @@ a.icon-menu {
     padding: 20px;
 }
 
+#planning .container.flex {
+    align-items: end;
+    gap: 40px;
+}
+
 #planning .container .col-50:last-child {
     color: var(--bg-color7);
     background-color: var(--bg-color6);
-    margin: 200px 100px 0 0;
     padding: 40px;
     border-radius: 50px;
 }
@@ -153,6 +157,7 @@ a.icon-menu {
     padding: 20px;
     border-radius: 50px;
 }
+
 /* /planning */
 
 /* partners */
