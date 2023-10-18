@@ -31,14 +31,14 @@ a,
 .w-30 {
     width: calc((100% - 24px) / 3);
     flex-shrink: 0;
-    border-radius: 20px;
+    border-radius: 50px;
     padding: 25px;
 }
 
 .w-70 {
     width: calc(((100% - 24px ) / 3 ) * 2 + 12px );
     flex-shrink: 0;
-    border-radius: 20px;
+    border-radius: 50px;
     padding: 25px;
 }
 
