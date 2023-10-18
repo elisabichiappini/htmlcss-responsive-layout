@@ -42,9 +42,6 @@ RESPONSIVE---
 
     #demo-app .container .col-50 .image {
         width: 40%;
-        left: 0;
-        bottom: 0;
-        position: absolute;
     }
     /* /demo-app */
     

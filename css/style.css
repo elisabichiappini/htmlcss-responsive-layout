@@ -86,20 +86,9 @@ a.icon-menu {
     margin-bottom: 36px;
 }
 
-#demo-app .container .row .w-70 {
-    position: relative;
-}
-
 #demo-app .container .row .w-70,
 #demo-app .container .row .w-30 {
     background-color: var(--bg-color2);
-}
-
-#demo-app .image {
-    width: 250px;
-    position: absolute;
-    bottom: 0px;
-    right: 48px;
 }
 
 #demo-app .container .row .w-30 i {
@@ -107,6 +96,11 @@ a.icon-menu {
     font-size: 80px;
     margin: 36px;
 }
+
+#demo-app .container .row .w-70 .col-50:last-child {
+    align-items: end;
+}
+
 /* /demo-app */
 
 /* planning */
