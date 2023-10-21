@@ -40,6 +40,9 @@ VARIABILI----
 CSS-----------
 --------------
 */
+.container {
+    padding: 1.25rem;
+}
 
 /* HEADER */
 #navbar {
@@ -96,11 +99,6 @@ a.icon-menu {
     font-size: 80px;
     margin: 36px;
 }
-
-#demo-app .container .row .w-70 .col-50:last-child {
-    align-items: end;
-}
-
 /* /demo-app */
 
 /* planning */
@@ -307,6 +305,11 @@ a.icon-menu {
 #free {
     background-color: var(--bg-color3);
     color: var(--bg-color6);
+}
+
+#free .container,
+footer .container {
+    max-width: 50%;
 }
 
 #free .container .box-text h4{

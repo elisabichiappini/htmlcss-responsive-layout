@@ -39,7 +39,7 @@ a,
     width: calc(((100% - 24px ) / 3 ) * 2 + 12px );
     flex-shrink: 0;
     border-radius: 50px;
-    padding: 25px;
+    padding: 25px 25px 0;
 }
 
 .col-50 {
