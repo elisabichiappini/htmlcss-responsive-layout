@@ -218,6 +218,13 @@ a.icon-menu {
 #partners .container .row.text-center {
     margin-bottom: 30px;
 }
+
+#partners .container .row .col-80 p > i.fa-solid.fa-quote-left {
+    vertical-align: top;
+}
+#partners .container .row .col-80 p > i.fa-solid.fa-quote-right {
+    vertical-align: bottom;
+}
 /* /partners */
 
 /* benefits */
