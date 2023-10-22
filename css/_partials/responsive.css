@@ -29,6 +29,7 @@ RESPONSIVE---
 
     #navbar .menu .only-tp {
         display: block;
+        font-size: 30px;
     }
     /* /header */
 
@@ -65,13 +66,11 @@ RESPONSIVE---
     #planning .container.flex .col-50:first-child .box-text > p {
         margin: 0;
     }
-    
     /* /planning */
 
     /* benefits */
     #benefits .container .flex > .w-30 {
         width: calc((100% - 15px) / 2);
-    
     }
     /* /benefits */
 }
