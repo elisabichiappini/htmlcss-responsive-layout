@@ -4,7 +4,7 @@ RESPONSIVE---
 -------------
 */
 
-/* da 0 a 1400 */
+/* da 0 a 1200 */
 @media screen and (max-width: 1200px) {
 
     .container {
@@ -12,10 +12,9 @@ RESPONSIVE---
         margin: 0 auto;
     }
 }
-/* /da 0 a 1400 */
 
-/* da 0 a 991px*/
-@media screen and (max-width: 991px) {
+/* da 0 a 992px*/
+@media screen and (max-width: 992px) {
 
     .container {
         max-width: 960px;
@@ -43,7 +42,7 @@ RESPONSIVE---
     }
 
     #demo-app .container .col-50 .image {
-        width: 40%;
+        max-width: 250px;
     }
     /* /demo-app */
     
@@ -74,10 +73,10 @@ RESPONSIVE---
     }
     /* /benefits */
 }
-/* /da 0 a 991px*/
+/* /da 0 a 992px*/
 
-/* da 0 a 767px*/
-@media screen and (max-width: 767px) {
+/* da 0 a 768px*/
+@media screen and (max-width: 768px) {
 
     .container {
         max-width: 750px;
@@ -99,7 +98,7 @@ RESPONSIVE---
     }
 
     #demo-app .container .row .w-70 .col-50 .image {
-        width: 100%;
+        max-width: 100%;
     }
     /* /demo-app */
 

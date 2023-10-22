@@ -34,7 +34,6 @@ VARIABILI----
     --bg-color7: #000000;
 }
 
-
 /*
 --------------
 CSS-----------
@@ -52,7 +51,7 @@ CSS-----------
     font-size: 14px;
 }
 
-#navbar .flex{
+#navbar .flex {
     align-items: center;
 }
 
@@ -78,6 +77,10 @@ a.icon-menu {
     padding: 8px 48px;
 }
 
+#demo-app .col-50 > a.btn.letter-space {
+    margin: 40px 0;
+}
+
 #demo-app .container h3 {
     color: var(--bg-color1);
     margin-bottom: 36px;
@@ -86,7 +89,6 @@ a.icon-menu {
 #demo-app .container p {
     color: var(--bg-color4);
     font-weight: bold;
-    margin-bottom: 36px;
 }
 
 #demo-app .container .row .w-70,
@@ -312,7 +314,7 @@ footer .container {
     max-width: 50%;
 }
 
-#free .container .box-text h4{
+#free .container .box-text h4 {
     color: var(--bg-color5);
 }
 
@@ -327,19 +329,19 @@ footer .container {
     font-size: 10px;
 }
 
-#free .container .box-text .privacy > i{
+#free .container .box-text .privacy > i {
     font-size: 4px;
 }
 /* /free */
 /* /MAIN */
 
 /* FOOTER */
-footer  {
+footer {
     background-color: var(--bg-color4);
     color: white;
 }
 
-footer .privacy{
+footer .privacy {
     font-size: 10px;
 }
 
