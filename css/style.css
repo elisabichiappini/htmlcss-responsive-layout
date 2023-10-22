@@ -155,6 +155,11 @@ a.icon-menu {
 /* /planning */
 
 /* partners */
+
+#partners .container .row.flex {
+    padding-right: 20px;
+}
+
 #partners .col-80,
 #about .col-80 {
     flex-grow: 1;
@@ -222,6 +227,7 @@ a.icon-menu {
 #partners .container .row .col-80 p > i.fa-solid.fa-quote-left {
     vertical-align: top;
 }
+
 #partners .container .row .col-80 p > i.fa-solid.fa-quote-right {
     vertical-align: bottom;
 }
